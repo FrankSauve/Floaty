@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33403.182
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Floaty", "Floaty\Floaty.csproj", "{8043CD9D-9BAE-4C06-A787-C64049C369EC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8043CD9D-9BAE-4C06-A787-C64049C369EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8043CD9D-9BAE-4C06-A787-C64049C369EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8043CD9D-9BAE-4C06-A787-C64049C369EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8043CD9D-9BAE-4C06-A787-C64049C369EC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {52C5D6BC-2EA4-4B2F-9ED5-2A36D53E8936}
+	EndGlobalSection
+EndGlobal
