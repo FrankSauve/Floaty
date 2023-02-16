@@ -12,6 +12,7 @@ namespace Floaty
 
         void Awake()
         {
+            Debug.Log("Floaty Mod loaded. Adding Floating component to all ItemDrop objects.");
             harmony.PatchAll();
         }
 
@@ -22,7 +23,6 @@ namespace Floaty
             {
                 if (__instance.gameObject.GetComponent<Floating>() == null)
                 {
-                    Debug.Log($"Floaty: Adding floating component to: {__instance}");
                     Floating floating = __instance.gameObject.AddComponent<Floating>();
                     floating.m_waterLevelOffset = 0.5f;
                 }
